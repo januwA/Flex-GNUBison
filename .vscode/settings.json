@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.xml": "html",
+    "*.CEA": "asm",
+    "*.cea": "cea",
+    "stdio.h": "c",
+    "cstdlib": "c",
+    "cmath": "c",
+    "xlocnum": "c"
+  }
+}
