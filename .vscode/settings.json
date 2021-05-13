@@ -6,6 +6,7 @@
     "stdio.h": "c",
     "cstdlib": "c",
     "cmath": "c",
-    "xlocnum": "c"
+    "xlocnum": "c",
+    "map": "c"
   }
 }
