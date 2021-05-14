@@ -17,6 +17,26 @@
 - yytext: char*
 - yyleng: yytext size
 
+
+## [Flex 输出c++](https://ftp.gnu.org/old-gnu/Manuals/flex-2.5.4/html_node/flex_19.html)
+
+在Lexer中包含此选项头
+```
+%option noyywrap c++ nounistd
+```
+
+生成 lex.yy.cc
+```
+λ win_flex.exe Lexer_cc.l
+```
+
+生成 lex.yy.exe
+```
+> cl -i ./ ./lex.yy.cc
+```
+
+- [-i](https://docs.microsoft.com/en-us/cpp/build/reference/i-additional-include-directories?view=msvc-160) 设置includes path, 编译c++会生成`#include <FlexLexer.h>`
+
 ---
 
 ## bison

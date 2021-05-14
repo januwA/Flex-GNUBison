@@ -7,6 +7,8 @@
     "cstdlib": "c",
     "cmath": "c",
     "xlocnum": "c",
-    "map": "c"
+    "map": "c",
+    "memory": "cpp",
+    "b.h": "c"
   }
 }
