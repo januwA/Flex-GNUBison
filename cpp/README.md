@@ -1,6 +1,6 @@
 ## Flex
 ```
-λ win_bflex.exe lexer.l
+λ win_flex.exe lexer.l
 ```
 
 ## Bison

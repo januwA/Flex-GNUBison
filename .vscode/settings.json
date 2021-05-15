@@ -9,6 +9,8 @@
     "xlocnum": "c",
     "map": "c",
     "memory": "cpp",
-    "b.h": "c"
+    "b.h": "c",
+    "fstream": "cpp",
+    "iosfwd": "cpp"
   }
 }

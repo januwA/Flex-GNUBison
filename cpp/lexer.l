@@ -7,6 +7,6 @@
 %%
 
 "hello"   { return yy::parser::token::HELLO; }
-.         { printf("other"); }
+.         { printf("other\n"); }
 
 %%
