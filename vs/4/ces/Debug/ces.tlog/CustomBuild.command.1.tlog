@@ -1,0 +1,4 @@
+^C:\USERS\AJANUW\DESKTOP\CES\LEXER.L
+win_flex --wincompat -o lexer.cc lexer.l
+^C:\USERS\AJANUW\DESKTOP\CES\PARSER.Y
+win_bison --no-line -o parser.cc parser.y
