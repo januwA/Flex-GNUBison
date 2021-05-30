@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.xml": "html",
+    "*.CEA": "asm",
+    "*.cea": "cea",
+    "istream": "cpp",
+    "memory": "cpp"
+  }
+}

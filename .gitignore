@@ -1,4 +1,5 @@
-*.h
+parser.h
+position.hh
 *.hh
 *.c 
 *.cc
